@@ -1,6 +1,5 @@
 import time
 import datetime
-from PyQt5.QtWidgets import QLabel, QWidget, QLineEdit, QPushButton
 
 def set_alarm(alarm_time):
     print(f"Alarme posto para {alarm_time}")
