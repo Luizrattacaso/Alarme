@@ -70,11 +70,11 @@ class Interface(QMainWindow):
     def exibir_mensagem(self):
         QMessageBox.information(self,"Alarme","Hora de acordar!")
 
-def Janela():
+def Alarme():
     app = QApplication(sys.argv)
     janela = Interface()
     janela.show()
     sys.exit(app.exec_())
 
 if __name__ == "__main__":
-    Janela()
+    Alarme()
